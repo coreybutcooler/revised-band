@@ -71,6 +71,7 @@ body
 	padding: 10px 20px;
 	height: auto;
 	width: calc(100% - 30px);
+	position: : sticky;
 	font-weight: 200;
 	letter-spacing: 5px;
 }
