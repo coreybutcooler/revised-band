@@ -63,69 +63,9 @@ body
 	text-transform: uppercase;
 
 }
-			/*navbar*/
-.navbar-default .navbar-brand{
-	border: 1px solid #fff;
-	color: #fff;
-	font-size: 30px;
-	padding: 10px 20px;
-	height: auto;
-	position: : sticky;
-	font-weight: 200;
-	letter-spacing: 5px;
-}
-.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
-	color: #fff;
-}
-.navbar-fixed-top  .navbar-brand:focus, .navbar-fixed-top .navbar-brand:hover{
-	color: #313131;
-}
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #FFF;
-}
-.navbar-fixed-top .navbar-toggle .icon-bar {
-    background-color: #313131;
-}
-.navbar-fixed-top .navbar-toggle{
-	border-color: #313131;
-}
-.navbar-default {
-    background-color: transparent;
-    border-color: transparent;
-    padding-top: 50px;
-}
-.navbar-default .navbar-nav>li>a{
-	color: #fff;
-    /*text-transform: uppercase;*/
-    padding-right: 20px;
-    padding-left: 20px;
-    border: 1px solid transparent;
-    font-size: 12px;
-    font-weight: 300;
-    letter-spacing: 1px;
-}
-.navbar-default .navbar-toggle{
-	border-radius: 0px;
-}
-.navbar-default .navbar-nav>li>a:hover{
-	border: 1px solid rgba(255, 255, 255, 0.6);
-	color: #fff;
-}
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
-	color: #fff;
-}
-.navbar-nav>li>a {
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
-	background: transparent;
-}
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-    background-color: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    color: #fff;
-}
+/*navbar*/
+
+
 		/*Home*/
 .header-wrapper{
 	text-align: center;
