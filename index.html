@@ -23,59 +23,62 @@
 	    <link rel="stylesheet" href="assets/css/one-page-style.css">
 	   
                          <!-- The sale bar for the events. -->
-		<head>
-			<meta charset="UTF-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<title>Event Ticket Alert</title>
-			<style>
-				.alert-bar {
-					background-color: rgb(206, 206, 11);
-					color: black;
-					padding: 10px;
-					text-align: center;
-					position: fixed;
-					width: 100%;
-					top: 0;
-					left: 0;
-					z-index: 9999;
-				}
-				.close-button {
-					position: absolute;
-					top: 50%;
-					right: 20px;
-					transform: translateY(-50%);
-					cursor: pointer;
-				}
-				@keyframes slideOut {
-					0% {
-						transform: translateY(0);
-					}
-					100% {
-						transform: translateY(-100%);
-						opacity: 0;
-					}
-				}
-			</style>
-			</head>
-			<body>
-			
-			<div class="alert-bar" id="alertBar">
-				Tickets to Revised X Ignotis are selling out fast!! <a href="https://www.fatsoma.com/e/gp9eumnb/ignotis-x-revised?utm_campaign=prom_ss&utm_medium=social&utm_source=dynamic">Click here to get yours</a>
-				<span class="close-button" onclick="closeAlert()">X</span>
-			</div>
-			
-			
-			<script>
-				function closeAlert() {
-					var alertBar = document.getElementById("alertBar");
-					alertBar.style.animation = "slideOut 0.5s ease-in-out forwards";
-					setTimeout(function() {
-						alertBar.style.display = "none";
-					}, 500);
-				}
-			</script>
-			
-			</body>
+						 <head>
+							<meta charset="UTF-8">
+							<meta name="viewport" content="width=device-width, initial-scale=1.0">
+							<title>Event Ticket Alert</title>
+							<style>
+								.alert-bar {
+									background-color: yellow;
+									color: black;
+									padding: 15px;
+									text-align: center;
+									position: fixed;
+									width: 100%;
+									top: 0;
+									left: 0;
+									z-index: 9999;
+									font-size: 16px;
+									box-sizing: border-box;
+								}
+								.close-button {
+									position: absolute;
+									top: 50%;
+									right: 20px;
+									transform: translateY(-50%);
+									cursor: pointer;
+								}
+								@keyframes slideOut {
+									0% {
+										transform: translateY(0);
+									}
+									100% {
+										transform: translateY(-100%);
+										opacity: 0;
+									}
+								}
+							</style>
+							</head>
+							<body>
+							
+							<div class="alert-bar" id="alertBar">
+								Tickets are selling out fast! Book now! <a href="#">Click here to get yours</a>
+								<span class="close-button" onclick="closeAlert()">X</span>
+							</div>
+							
+							<!-- Your other HTML content here -->
+							
+							<script>
+								function closeAlert() {
+									var alertBar = document.getElementById("alertBar");
+									alertBar.style.animation = "slideOut 0.5s ease-in-out forwards";
+									setTimeout(function() {
+										alertBar.style.display = "none";
+									}, 500);
+								}
+							</script>
+							
+							</body>
 
 
 
